@@ -1,0 +1,14 @@
+{
+    "name": "play with mpv",
+    "version": "1.0.0",
+    "description": "play with mpv",
+    "background": {
+        "service_worker": "background.js"
+    },
+  
+ 
+    "permissions": ["storage", "tabs","activeTab",
+        "contextMenus"],
+    "host_permissions": ["<all_urls>"],
+    "manifest_version": 3
+}
